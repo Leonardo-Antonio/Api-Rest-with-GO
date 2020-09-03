@@ -1,0 +1,9 @@
+CREATE DATABASE BD_REST_GO;
+USE BD_REST_GO;
+
+CREATE TABLE tb_alumnos( 
+  id int AUTO_INCREMENT PRIMARY KEY NOT NULL,
+  fullname VARCHAR(50),
+  dni char(8) NOT NULL,
+  age TINYINT
+);
